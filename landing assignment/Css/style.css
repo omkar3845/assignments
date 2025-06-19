@@ -1,0 +1,136 @@
+.main-title{
+
+}
+body{
+    font-family: 'Open sans',sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+:root{
+--main-color:rgb(26, 152, 221);
+--font-color:white;
+}
+header{
+    background-color: var(--main-color);
+    color: var(--font-color);
+    height: 60px;
+    display: flex;
+}
+.navbar{
+    display: flex;
+}
+header .main-title{
+    margin-left: 10px;
+    padding-top: 15px;
+    font-size: 25px;
+}
+header .menu ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+header .menu ul li a{
+    margin-top:  5px;
+    color: var(--font-color);
+    text-decoration: none;
+    
+}
+.active{
+    border:none;
+    background-color: rgb(187, 187, 187);
+    font-weight: 300px;
+    border-radius: 4px;
+    color: white;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+
+}
+.menu{
+margin-left: 150%;
+}
+/* hero section */
+.hero .img-section img{
+    height: 80vh;
+    width: 100%;
+    position: absolute; 
+    margin: 0px;  
+}
+.text-section h1{
+    color: var(--font-color);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.text-section{
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    padding-top: 15%;
+    
+}
+.text-section p{
+    margin:0;
+    color: var(--font-color);
+    padding: 0px;
+    font-size: 24px;
+}
+.hero .text-section .btn .button1{
+    width: 150px; 
+    height: 50px; 
+    background-color:
+     rgb(26, 152, 221);
+      color: white; font-weight:bold;
+      border: none;
+      font-size: 15px;
+}
+.hero .text-section .btn .button2{
+    width: 150px;
+     height: 50px; 
+     background-color: white; 
+     color: rgb(26, 152, 221); 
+     border: none; 
+    font-size: 15px;
+}
+.text-section .btn .button1:hover{
+    background-color: brown;
+    transition: 2s;
+    color: chartreuse;
+}
+.text-section .btn .button2:hover{
+    background-color: orange;
+    transition: 2s;
+    color: chartreuse;
+}
+.hero .text-section .btn .button1 a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+/* footer section */
+footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    
+}
+.ftext h1{
+    color: black;
+}
+.columns{
+    width: 100%;
+    height: 100px;
+    padding:0px;
+    margin: 0px;
+}
+.columns .row ul li{
+    list-style:none;
+
+
+}
+.columns .row ul {
+    display: flex;
+    gap:150px;
+    /* margin-left: 10%; */
+    margin-top: 80px;
+}
